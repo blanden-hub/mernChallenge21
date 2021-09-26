@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "googlebooks",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,15 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "apollo-server-express": "^2.25.2",
-    "bcrypt": "^4.0.1",
-    "express": "^4.17.1",
-    "graphql": "^15.5.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.10"
-  },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "graphql": "^15.6.0"
   }
 }
