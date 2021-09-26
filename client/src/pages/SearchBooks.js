@@ -75,7 +75,7 @@ const SearchBooks = () => {
     }
 
     try {
-      await nookSaved({
+      await bookSaved({
         variables: {content: bookToSave},
       });
 

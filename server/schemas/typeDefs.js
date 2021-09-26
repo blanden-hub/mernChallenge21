@@ -19,7 +19,7 @@ type User {
     title: String
   }
   type Query {
-    users: User
+    me: User
   }
   type Mutation {
     login(email: String!, password: String!): Auth
